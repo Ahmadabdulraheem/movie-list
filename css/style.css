@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    background-color:  #E8F0F6;
+}
+header {
+    color:#eee ;
+    background-color:#39A2DB ;
+}
+h1 {font-size: 25px;
+    font-weight: bold;
+text-align: center;
+padding-top: 20px;}
+
+main {display: inline-flex;
+justify-content: space-around;
+gap: 30px;
+padding-top: 120px;
+}
+
+ table{padding: 20px;
+ }
+ table thead {background-color:  #A2DBFA;}
+ table tfoot {background-color:#77ACF1 ;}
+
+footer{color: #eee;
+background-color:#053742 ;
+text-align: center;
+clear: both;
+position:absolute;
+bottom:0;
+width:100%;
+height: 40px;
+padding-top: 15px;}
+
+ 
+#save{background-color: #71c7ec ;}
+#clear{background-color: #a10909;}
+
+form{border: 1px ;
+    padding: 50px;
+    border-style: dashed;
+    border-radius: 10px;
+   
+
+}
